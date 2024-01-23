@@ -3,9 +3,9 @@ import React from "react";
 const Main = () => {
   return (
     <>
-    <h1 className="text-center">main object</h1>
-     <div className="container mt-5 mb-4">
-        <div className="row gx-3">
+    <h1 className="text-center main-header mt-3">What We Have</h1>
+     <div className="container mt-0">
+        <div className="row">
           <div className="col-sm-6 mb-3 mb-sm-0">
             <div className="card">
               <img

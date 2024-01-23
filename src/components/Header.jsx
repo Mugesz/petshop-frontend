@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import Logo from "../assets/img/logo.png";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./styles.css";
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div className="container-fluid  d-flex align-items-center justify-content-between">
+    <nav className="navbar navbar-expand-lg nav-bg fixed-top">
+      <div className="container-fluid d-flex align-items-center justify-content-between">
         <div className="d-flex">
           <Link className="navbar-brand" to="/">
             <img
@@ -29,8 +29,9 @@ const Header = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
+          <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
+            {/* Add mx-auto class to center the list items */}
+            <li className="nav-item text-light">
               <NavLink
                 className="nav-link"
                 to="/"
@@ -55,36 +56,36 @@ const Header = () => {
                 to="/fish"
                 activeClassName="active"
               >
-                fish
+                Fish
               </NavLink>
-            </li>{" "}
+            </li>
             <li className="nav-item">
               <NavLink
                 className="nav-link"
                 to="/dogs"
                 activeClassName="active"
               >
-                dogs
+                Dogs
               </NavLink>
-            </li>{" "}
+            </li>
             <li className="nav-item">
               <NavLink
                 className="nav-link"
-                to="/"
+                to="/cats"
                 activeClassName="active"
               >
-                cats
+                Cats
               </NavLink>
-            </li>{" "}
+            </li>
             <li className="nav-item">
               <NavLink
                 className="nav-link"
                 to="/birds"
                 activeClassName="active"
               >
-                birds
+                Birds
               </NavLink>
-            </li>{" "}
+            </li>
             <li className="nav-item">
               <NavLink
                 className="nav-link"
@@ -93,7 +94,7 @@ const Header = () => {
               >
                 Accessories
               </NavLink>
-            </li>{" "}
+            </li>
           </ul>
           <form className="d-flex" role="search">
             <input
