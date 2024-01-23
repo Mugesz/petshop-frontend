@@ -1,0 +1,73 @@
+[
+    {
+      "title": "Dachshund",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/2/27/Short-haired-Dachshund.jpg",
+      "description": " Known for their long body and short legs, Dachshunds are friendly, curious, and make great companions. Their unique appearance and playful nature are sure to win your heart.",
+      "prize" : "500"
+    },
+    {
+        "title": "Doberman ",
+        "imageSrc": "https://besttopets.com/wp-content/uploads/2023/03/Doberman-Dog-8.jpg",
+        "description": "Dobermans are known for their intelligence, loyalty, and sleek appearance. With a strong and confident demeanor, they make excellent guard dogs and loyal family members. ",
+        "prize" : "500"
+      },  {
+        "title": "German Shepherd",
+        "imageSrc": "https://doggywala.com/assets/images/german-shepherd/german5.jpg",
+        "description": "  German Shepherds are renowned for their versatility and intelligence. Often used as police and service dogs, they are loyal, protective, and make wonderful family pets.",
+        "prize" : "500"
+      },  {
+        "title": "Golden Retriever",
+        "imageSrc": "https://dogbreedo.com/wp-content/uploads/2019/04/dog-golden-retriever-pet-7565.jpg",
+        "description": "Golden Retrievers are friendly, intelligent, and known for their gentle demeanor. They are excellent with families and are often used as therapy and assistance dogs. ",
+        "prize" : "500"
+      },  {
+        "title": "Labrador ",
+        "imageSrc": "https://www.dailypaws.com/thmb/rwL54b2y1kllOZLhfppcfbkrmaU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/golden-lab-puppy-664540826-2000-b29bcc58c71a498eb5ecd5d0b2b8e82b.jpg",
+        "description": "  Labradors are one of the most popular dog breeds known for their friendly and outgoing nature. They are highly trainable, making them great companions for families and individuals alike.",
+        "prize" : "500"
+      }, 
+       {
+        "title": "Lhasa Apso ",
+        "imageSrc": "https://doggywala.com/assets/images/lhasa-apso/lhasa-apso13.jpg",
+        "description": "Lhasa Apsos are small, confident dogs known for their distinctive, long, flowing coat. They are loyal, independent, and have a keen sense of alertness. ",
+        "prize" : "500"
+      }, 
+       {
+        "title": "Pomeranian ",
+        "imageSrc": "https://cdn.shopify.com/s/files/1/1199/8502/files/9_d4b02e98-640b-4ff0-99a8-9006a85882ab.jpg?v=1614872161",
+        "description": "  Pomeranians are small, lively dogs with a fluffy double coat. Despite their size, they have a bold personality and are known for their intelligence and extroverted nature.",
+        "prize" : "500"
+      }, 
+       
+      {
+        "title": "Rottweiler ",
+        "imageSrc": "https://www.shutterstock.com/image-photo/rottweiler-dog-play-ball-garden-260nw-1707420238.jpg",
+        "description": "Rottweilers are strong, powerful dogs known for their loyalty and protective instincts. With proper training and socialization, they can be loving family members. ",
+        "prize" : "500"
+      }, 
+       {
+        "title": "Shih Tzu ",
+        "imageSrc": "https://www.mrnmrspet.com/Files/72023/149190202307301621309768.jpg",
+        "description": "Shih Tzus are affectionate and outgoing dogs known for their luxurious, long, flowing coat. They make wonderful companions and are often referred to aslittle lions.",
+        "prize" : "500"
+      },
+        {
+        "title": "Shiba Inu ",
+        "imageSrc": "https://dogbreedo.com/wp-content/uploads/2019/05/Shiba-Inu.jpg",
+        "description": " Shiba Inus are a Japanese breed known for their spirited personality and fox-like appearance. They are alert, agile, and make excellent companions for those who appreciate independence. ",
+        "prize" : "500"
+      },
+      {
+        "title": "Chippiparai",
+        "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Big_Head_Kanni.jpg/800px-Big_Head_Kanni.jpg",
+        "description": " The Chippiparai is a native Indian breed known for its elegant and slender appearance. Hailing from Tamil Nadu, these sighthounds are prized for their agility and speed. ",
+        "prize" : "500"
+      },
+      {
+        "title": "Pit Bull",
+        "imageSrc": "https://besttopets.com/wp-content/uploads/2023/09/pitbull-dog-images-featured-besttopets-2-1530x1021.jpg",
+        "description": " Pit Bulls, also known as American Pit Bull Terriers, are strong, muscular dogs with a friendly and affectionate nature. They are known for their loyalty and intelligence, making them excellent family companions.",
+        "prize" : "500"
+      }
+  ]
+  

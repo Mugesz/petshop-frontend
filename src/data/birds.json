@@ -1,0 +1,49 @@
+[
+    {
+      "title": "Budgerigar",
+      "imageSrc": "https://images.unsplash.com/photo-1566468161976-52453dddfd69?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhcmFrZWV0fGVufDB8fDB8fHww",
+      "description": " Budgerigars, often called Budgies, are small and colorful parakeets known for their playful and social nature. With vibrant plumage and charming personalities, they make delightful companions for bird enthusiasts.",
+      "prize" : "500"
+    },
+    {
+        "title": "Finches ",
+        "imageSrc": "https://media.audubon.org/sfw_emblematicpicture.jpg",
+        "description": "Finches are small, lively birds with a melodious song. Their diverse colors and patterns make them a popular choice among bird lovers. Finches are social creatures that thrive in pairs or small groups. ",
+        "prize" : "500"
+      },  {
+        "title": "Love Birds",
+        "imageSrc": "https://miro.medium.com/v2/resize:fit:1358/0*bW0p0yJ8WDZkQUdA.jpg",
+        "description": " Love Birds, as the name suggests, are known for their strong pair bonds and affectionate behavior. These small parrots are recognized for their vibrant plumage and playful interactions with their mates.",
+        "prize" : "500"
+      },  {
+        "title": "Cockatiels",
+        "imageSrc": "https://w0.peakpx.com/wallpaper/255/693/HD-wallpaper-pair-of-cockatiels-birds-animals-thumbnail.jpg",
+        "description": "Cockatiels are friendly and intelligent birds with distinctive crests on their heads. They are known for their whistling abilities and gentle demeanor, making them popular companions for bird enthusiasts of all ages. ",
+        "prize" : "500"
+      },  {
+        "title": "Sun Conures ",
+        "imageSrc": "https://thumbs.dreamstime.com/b/sun-conures-4406820.jpg",
+        "description": "Sun Conures are colorful parrots with striking yellow, orange, and green plumage. Known for their lively and social nature, these birds bring vibrant energy to any aviary and form strong bonds with their human caretakers.",
+        "prize" : "500"
+      }, 
+       {
+        "title": "Monk ",
+        "imageSrc": "https://t3.ftcdn.net/jpg/06/03/73/56/360_F_603735602_cxgaBwqIoVRsnVK1Gy3XGlBX9IrNASoU.jpg",
+        "description": "Monk Parakeets, or Quaker Parrots, are medium-sized parrots with a charming personality. They are known for their ability to mimic sounds and their playful antics, making them entertaining companions. ",
+        "prize" : "500"
+      },
+      {
+        "title": "Macaw ",
+        "imageSrc": "https://c4.wallpaperflare.com/wallpaper/316/1012/977/lovely-parrots-2-macaw-birds-wallpaper-preview.jpg",
+        "description": "Macaws are large and majestic parrots with vibrant plumage and strong beaks. Known for their intelligence and social nature, Macaws form deep bonds with their owners and require ample space for physical and mental stimulation. ",
+        "prize" : "500"
+      },
+      {
+        "title": "Lorikeet ",
+        "imageSrc": "https://png.pngtree.com/background/20230426/original/pngtree-5-colorful-parrots-sitting-on-a-branch-picture-image_2489429.jpg",
+        "description":  "Lorikeets are small to medium-sized parrots known for their colorful and iridescent plumage. These lively birds are nectar feeders, and their playful antics and vibrant appearance make them a joy to observe.",
+        "prize" : "500"
+      }
+      
+  ]
+  

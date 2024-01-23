@@ -1,0 +1,73 @@
+[
+    {
+      "title": "Gold fish",
+      "imageSrc": "https://c4.wallpaperflare.com/wallpaper/345/825/125/white-pigeon-wallpaper-preview.jpg",
+      "description": "Goldfish are popular aquarium companions known for their vibrant colors and graceful swimming. They are a symbol of good luck and are ideal for both beginners and experienced fish enthusiasts.",
+      "prize" : "500"
+    },
+    {
+        "title": "Guppy ",
+        "imageSrc": "https://thumbs.dreamstime.com/b/guppy-poecilia-reticulata-colorful-rainbow-tropical-aquarium-fish-132859783.jpg",
+        "description": "Guppies are small, colorful fish with a playful demeanor. Known for their adaptability and vibrant patterns, guppies add lively movement to aquariums and are suitable for community tanks. ",
+        "prize" : "500"
+      },  {
+        "title": "Molly",
+        "imageSrc": "https://t3.ftcdn.net/jpg/01/43/92/40/360_F_143924069_EeJ6VXo96W9jvtwoERku52pbkMQWaOff.jpg",
+        "description": "Mollies are peaceful and sociable freshwater fish with a variety of colors. They are easy to care for and make excellent community tank members, contributing to the lively atmosphere.",
+        "prize" : "500"
+      },  {
+        "title": "FlowerHorn",
+        "imageSrc": "https://creature-companions.in/wp-content/uploads/2021/11/flowerhorn-fish.gif",
+        "description": "Flowerhorn fish are known for their unique appearance, characterized by a prominent nuchal hump on their head. With striking colors and distinctive markings, they are popular among aquarium enthusiasts.",
+        "prize" : "500"
+      },  {
+        "title": "Arowana ",
+        "imageSrc": "https://images.hindustantimes.com/img/2021/10/19/1600x900/Screenshot_2021-10-19_at_10.23.55_PM_1634662556738_1634662570403.png",
+        "description": "Arowana, also known as Dragon Fish, are majestic and large freshwater fish. Their sleek bodies and powerful presence make them prized additions to advanced aquariums.",
+        "prize" : "500"
+      }, 
+       {
+        "title": "Shark ",
+        "imageSrc": "https://aquariumpart.com/wp-content/uploads/2021/09/Iridescent-Shark-101.jpg",
+        "description": "Iridescent Sharks, or Pangasius, are sleek and active fish resembling sharks. They are known for their schooling behavior and are suitable for larger aquariums with ample swimming space. ",
+        "prize" : "500"
+      },
+      {
+        "title": "Widow tetra ",
+        "imageSrc": "https://5.imimg.com/data5/ANDROID/Default/2021/12/QS/QD/OG/116176146/product-jpeg-500x500.jpg",
+        "description": " Widow Tetras are small, schooling fish with a distinctive black widow mark on their bodies. They add visual interest to aquariums and are known for their peaceful nature.",
+        "prize" : "500"
+      },
+      {
+        "title": "Tiger Barb ",
+        "imageSrc": "https://himadriaquatics.b-cdn.net/wp-content/uploads/2021/04/tiger-barb-3.jpg",
+        "description":  "Tiger Barbs are lively and colorful fish with distinctive stripes. They are known for their energetic behavior and are suitable for community tanks with other robust species.",
+        "prize" : "500"
+      },
+      {
+        "title": "Zebra ",
+        "imageSrc": "https://t4.ftcdn.net/jpg/05/91/00/39/360_F_591003968_0O6oEOq3slyMZIUI9F9oydyeLeIuX7ix.jpg",
+        "description":  " Zebra Danios, or Zebra Fish, are small and active aquarium fish with striking zebra-like stripes. They are easy to care for and contribute to the dynamic movement in aquariums.",
+        "prize" : "500"
+      },
+      {
+        "title": "Betta ",
+        "imageSrc": "https://wallpapercave.com/wp/wp1982004.jpg",
+        "description":   "Betta fish, also known as Siamese Fighting Fish, are known for their vibrant colors and flowing fins. While males are territorial, their beauty makes them popular among aquarium enthusiasts.",
+        "prize" : "500"
+      },
+      {
+        "title": "Oscar ",
+        "imageSrc": "https://animals.net/wp-content/uploads/2019/12/Oscar-Fish-6-650x425.jpg",
+        "description":  "Oscar Fish are large and intelligent freshwater fish with distinctive markings. They require spacious tanks and are appreciated for their interactive behavior with their owners.",
+        "prize" : "500"
+      },
+      {
+        "title": "Parrot fish ",
+        "imageSrc": "https://www.aquariadise.com/wp-content/uploads/2021/02/Blood-Parrot-Fish.jpg",
+        "description":  "Blood Parrot Fish are unique in appearance, known for their vivid colors and distinctive beak-like mouth. They are lively additions to aquariums and require proper care for their well-being.",
+        "prize" : "500"
+      }
+      
+  ]
+  
