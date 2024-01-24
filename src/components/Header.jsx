@@ -42,39 +42,22 @@ const Header = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                className="nav-link"
-                to="/foods"
-                activeClassName="active"
-              >
-                Foods
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                className="nav-link"
-                to="/fish"
-                activeClassName="active"
-              >
+              <NavLink className="nav-link" to="/fish" activeClassName="active">
                 Fish
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                className="nav-link"
-                to="/dogs"
-                activeClassName="active"
-              >
+              <NavLink className="nav-link" to="/dogs" activeClassName="active">
                 Dogs
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
                 className="nav-link"
-                to="/cats"
+                to="/otherpets"
                 activeClassName="active"
               >
-                Cats
+                Otherpets
               </NavLink>
             </li>
             <li className="nav-item">
@@ -86,14 +69,60 @@ const Header = () => {
                 Birds
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink
-                className="nav-link"
-                to="/accessories"
-                activeClassName="active"
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Foods
+              </a>
+              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <Link className="dropdown-item" to="/dogfoods">
+                  Dogs foods
+                </Link>
+                <Link className="dropdown-item" to="/fishfoods">
+                  Fish foods
+                </Link>
+    
+                <Link className="dropdown-item" to="/birsfoods">
+                  Birds foods
+                </Link>
+                
+                <a className="dropdown-item" href="#">
+                  Otherpets foods
+                </a>
+              </div>
+            </li>
+
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
               >
                 Accessories
-              </NavLink>
+              </a>
+              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a className="dropdown-item" href="#">
+                  Dogs Accessories
+                </a>
+                <a className="dropdown-item" href="#">
+                  Fish Accessories
+                </a>
+    
+                <a className="dropdown-item" href="#">
+                  Birds Accessories
+                </a>
+              </div>
             </li>
           </ul>
           <form className="d-flex" role="search">

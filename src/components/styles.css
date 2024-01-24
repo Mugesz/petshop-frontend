@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
+/* navbar */
 .logo {
   height: 80px;
 }
@@ -14,7 +15,7 @@
 
 .navbar-nav .nav-item .nav-link {
   color: white;
-  font-family: inherit;
+  font-family: "Roboto Mono", monospace;
   font-size: larger;
 }
 
@@ -24,6 +25,11 @@
   border-radius: 10px;
 }
 
+
+.navbar-toggler{
+  background-color: #ff9900 !important;
+  color: #ffffff !important;
+}
 /* top bar */
 
 .m-left {
@@ -58,16 +64,65 @@
   color: #787878;
 }
 
+
+
 /* having */
 
 .b-image {
   background-image: url(" https://pets-grooming.axiomthemes.com/wp-content/uploads/2016/07/background-6.jpg?id=211");
 }
 
-.card-having{
+.card-having {
   background-color: #ff9900 !important;
 }
 /* main */
-.main-header{
+.main-header {
   font-family: "Roboto Mono", monospace;
+}
+
+.img-hover {
+  padding: 10px;
+}
+
+.img-hover:hover {
+  padding: 5px;
+  background-color: antiquewhite;
+}
+
+
+.btn-primary:hover{
+  background-color: #ff9900 !important;
+  border: none !important;
+}
+
+/* testimonial */
+.testimonial-author {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #555;
+}
+
+.test-img{
+  background-image: url("https://pets-grooming.axiomthemes.com/wp-content/uploads/2016/07/background-4.jpg?id=202");
+}
+
+/* fish */
+
+.top-heading{
+  margin-top: 120px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/* dogfoods */
+
+.b-details{
+  margin-top: 10px !important;
+  border-radius: 25px !important;
+  margin-bottom: 10px !important;
+}
+
+.b-details:hover{
+  background-color: #ff9900 !important;
+  border:none !important
 }

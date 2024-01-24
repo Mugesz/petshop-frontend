@@ -1,20 +1,20 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import AllDogs from "../data/Dogs.json";
+import dogfoods from "../data/dogfoods.json";
 import "./styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
 
-const Dogs = () => {
+const Dogfoods = () => {
   return (
     <>
       <Header />
-      <h1 className=" top-heading  bg-light">Dog Section</h1>
+      <h1 className="top-heading bg-light">Dog foods</h1>
       <div className="container mt-0 bg-light">
         <div className="row">
-          {AllDogs.map((item, index) => (
+          {dogfoods.map((item, index) => (
             <div key={index} className="col-md-4 mb-4">
               <div className="card">
                 <img
@@ -31,6 +31,9 @@ const Dogs = () => {
               </div>
             </div>
           ))}
+          {/* Add two empty columns to create larger spaces */}
+          <div className="col" />
+          <div className="col" />
         </div>
       </div>
       <div className="text-center mt-3 mb-3">
@@ -45,7 +48,10 @@ const Dogs = () => {
             <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#ffffff" }} />
           </a>{" "}
           <a href="tel:8838078784" className="btn btn-info">
-            <FontAwesomeIcon icon={faPhoneSquare} style={{ color: "#ffffff" }} />
+            <FontAwesomeIcon
+              icon={faPhoneSquare}
+              style={{ color: "#ffffff" }}
+            />
           </a>
         </h3>
       </div>
@@ -60,7 +66,7 @@ export const Contact = () => {
       <h3>
         Contact us{" "}
         <a
-          href="https://wa.me/918838078784?text=Hi,karthi I saw your website. May I know the Dogs deatails ?"
+          href="https://wa.me/918838078784?text=Hi,karthi I saw your website. May I know the Birds deatails ?"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-success"
@@ -75,4 +81,4 @@ export const Contact = () => {
   );
 };
 
-export default Dogs;
+export default Dogfoods;

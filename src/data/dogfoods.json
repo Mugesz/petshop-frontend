@@ -1,0 +1,32 @@
+[
+    {
+      "title": "Royal Canin",
+      "imageSrc": "https://m.economictimes.com/thumb/msid-100775864,width-1600,height-900,resizemode-4,imgsize-40920/picture1.jpg",
+      "description": " Royal Canin offers a premium selection of pet food designed to meet the specific nutritional needs of your furry friend. With high-quality ingredients, it ensures your pet receives the balanced diet they deserve.",
+      "prize" : "500"
+    },
+    {
+        "title": "Pedigree ",
+        "imageSrc": "https://w7.pngwing.com/pngs/176/405/png-transparent-dog-food-dog-biscuit-pedigree-petfoods-dog-food-animals-beef-thumbnail.png",
+        "description": "Pedigree provides nutritious and tasty dog food, crafted to support your canine companion's overall well-being. With a focus on quality ingredients, Pedigree helps keep your dog healthy and happy.",
+        "prize" : "500"
+      },  {
+        "title": "Drools",
+        "imageSrc": "https://www.bigbasket.com/media/uploads/p/l/40232574_2-drools-adult-dry-dog-food-boosts-digestive-ability-chicken-egg.jpg",
+        "description": " Drools offers a range of dog food that boosts digestive ability and supports your pet's health. With a blend of essential nutrients, Drools ensures your dog stays active and joyful.",
+        "prize" : "500"
+      }, 
+      {
+        "title": "Canoin Creek",
+        "imageSrc": "https://m.media-amazon.com/images/I/612cMkCLcYL._AC_UF1000,1000_QL80_.jpg",
+        "description": " Canoin Creek provides high-quality pet food, ensuring the well-being of your pets. With a commitment to excellence, Canoin Creek offers a delicious and nutritious option for your furry companions.",
+        "prize" : "500"
+      },
+      {
+        "title": "Country Side",
+        "imageSrc": "https://www.taiyogroup.in/wp-content/uploads/2022/10/Untitled-design-45.jpg",
+        "description": "Country Side presents a range of pet food options that cater to the nutritional needs of your beloved pets. With a focus on wholesome ingredients, Country Side aims to keep your pets healthy and content.",
+        "prize" : "500"
+      }
+  ]
+  

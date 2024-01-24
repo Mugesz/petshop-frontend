@@ -6,6 +6,7 @@ import Having from "./Having.jsx";
 import Footer from "./Footer.jsx";
 import Main from "./Main.jsx";
 import Intro from "./Intro.jsx";
+import Testimonials from "./Testimonials.jsx";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Intro />
       <Having />
       <Main />
+      <Testimonials />
       <Footer />
     </div>
   );

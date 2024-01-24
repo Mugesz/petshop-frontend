@@ -1,0 +1,50 @@
+[
+    {
+      "title": "Persian cat",
+      "imageSrc": "https://images.unsplash.com/photo-1460572894071-bde5697f7197?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGVyc2lhbiUyMGNhdHxlbnwwfHwwfHx8MA%3D%3D",
+      "description": "Persian cats are known for their luxurious long fur and distinctive flat face. They have a calm and gentle demeanor, making them great indoor companions.",
+      "prize": "500"
+    },
+    {
+        "title": "Himalayan cat",
+        "imageSrc": "https://c4.wallpaperflare.com/wallpaper/660/429/187/cats-cat-blue-eyes-himalayan-cat-wallpaper-preview.jpg",
+        "description": "Himalayan cats are a breed known for their striking blue eyes and colorpoint pattern. They are affectionate and enjoy spending time with their human companions.",
+        "prize": "500"
+      },  
+      {
+        "title": "Bengal cat",
+        "imageSrc": "https://i.pinimg.com/originals/32/fd/19/32fd19f6d5db617a52466171ee6fc3ca.png",
+        "description": "Bengal cats are known for their distinctive spotted or marbled coat and playful nature. They are energetic and enjoy interactive play with their owners.",
+        "prize": "500"
+      }, 
+      {
+        "title": "New Zealand white",
+        "imageSrc": "https://petkeen.com/wp-content/uploads/2023/06/new-zealand-rabbit-up-close_Seberang-Pintu_Shutterstock.jpg",
+        "description": "New Zealand white rabbits are a popular breed known for their all-white fur and friendly disposition. They make great pets for families and individuals alike.",
+        "prize": "500"
+      }, 
+      {
+        "title": "Dutch cat",
+        "imageSrc": "https://www.shutterstock.com/image-photo/little-funny-rabbit-sitting-leaves-600nw-712487776.jpg",
+        "description": "Dutch rabbits are characterized by their distinctive color pattern, with a solid-colored body and a white blaze on their face. They are known for their friendly nature.",
+        "prize": "500"
+      }, 
+      {
+        "title": "Angora Rabbit",
+        "imageSrc": "https://t3.ftcdn.net/jpg/05/93/36/76/360_F_593367631_3MawEHPO4NOzQm2GZKty7MwCy8iEgctS.jpg",
+        "description": "Angora rabbits have long, silky fur and are known for their beautiful coats. They require regular grooming and make delightful companions.",
+        "prize": "500"
+      }, 
+      {
+        "title": "Chinchilla rabbit",
+        "imageSrc": "https://www.shutterstock.com/image-photo/single-sedate-lovely-furry-american-600nw-2271504343.jpg",
+        "description": "Chinchilla rabbits have a distinctive coat color that mimics the chinchilla rodent. They are gentle and make great pets for rabbit enthusiasts.",
+        "prize": "500"
+      }, 
+      {
+        "title": "Giant rabbits",
+        "imageSrc": "https://t3.ftcdn.net/jpg/05/93/34/54/360_F_593345454_sZiL57jzefl06tRxL0NyJLH9thR8PEhs.jpg",
+        "description": "Giant rabbits, also known as Flemish Giants, are a large rabbit breed known for their docile nature and impressive size. They are friendly and make unique pets.",
+        "prize": "500"
+      }
+]

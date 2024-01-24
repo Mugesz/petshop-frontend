@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Main = () => {
   return (
@@ -20,9 +21,9 @@ const Main = () => {
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <Link to={'/fish'} className="btn btn-primary">
                   view All fishes
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -41,9 +42,9 @@ const Main = () => {
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <Link to={'/dogs'} href="#" className="btn btn-primary">
                   view All Dogs
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -62,9 +63,9 @@ const Main = () => {
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <Link to={'/birds'} className="btn btn-primary">
                   view All Birds
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -83,9 +84,9 @@ const Main = () => {
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <Link to={'/pets'} className="btn btn-primary">
                   view All pets
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -104,7 +105,7 @@ const Main = () => {
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a hLink to={'/pets'} className="btn btn-primary">
                   view All Foods
                 </a>
               </div>
@@ -125,7 +126,7 @@ const Main = () => {
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a Link to={'/accessories'} className="btn btn-primary">
                   view All Accessories
                 </a>
               </div>

@@ -1,20 +1,20 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import AllDogs from "../data/Dogs.json";
+import fishfoods from "../data/fishfoods.json";
 import "./styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
 
-const Dogs = () => {
+const Fishfoods = () => {
   return (
     <>
       <Header />
-      <h1 className=" top-heading  bg-light">Dog Section</h1>
+      <h1 className="top-heading bg-light">Fish foods</h1>
       <div className="container mt-0 bg-light">
         <div className="row">
-          {AllDogs.map((item, index) => (
+          {fishfoods.map((item, index) => (
             <div key={index} className="col-md-4 mb-4">
               <div className="card">
                 <img
@@ -45,7 +45,10 @@ const Dogs = () => {
             <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#ffffff" }} />
           </a>{" "}
           <a href="tel:8838078784" className="btn btn-info">
-            <FontAwesomeIcon icon={faPhoneSquare} style={{ color: "#ffffff" }} />
+            <FontAwesomeIcon
+              icon={faPhoneSquare}
+              style={{ color: "#ffffff" }}
+            />
           </a>
         </h3>
       </div>
@@ -60,7 +63,7 @@ export const Contact = () => {
       <h3>
         Contact us{" "}
         <a
-          href="https://wa.me/918838078784?text=Hi,karthi I saw your website. May I know the Dogs deatails ?"
+          href="https://wa.me/918838078784?text=Hi,karthi I saw your website. May I know the Birds deatails ?"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-success"
@@ -74,5 +77,4 @@ export const Contact = () => {
     </div>
   );
 };
-
-export default Dogs;
+export default Fishfoods;
