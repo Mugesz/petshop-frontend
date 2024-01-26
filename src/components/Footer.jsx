@@ -1,12 +1,18 @@
 import React from "react";
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope,faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";  // Import Instagram icon from brands package
+import {
+  faInstagram,
+  faFacebook,
+  faYoutube,
+  faWhatsapp
+} from "@fortawesome/free-brands-svg-icons";
+
 
 const Footer = () => {
   return (
     <footer className="b-image text-light">
-      <div className="container">
+      <div className="container mt-0">
         <div className="row">
           <div className="col-md-4">
             <h2 className="text-2xl font-bold mb-4">Ganapathy Pet Shop</h2>
@@ -25,7 +31,29 @@ const Footer = () => {
           </div>
           <div className="col-md-4">
             <h2 className="text-2xl font-bold mb-4">Follow Us</h2>
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-center margin-left">
+              <a
+                href="https://www.facebook.com/profile.php?id=100075734816966&sfnsn=wiwspwa&mibextid=RUbZ1f"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn"
+              >
+                <FontAwesomeIcon
+                  icon={faYoutube}
+                  style={{ color: "#ffffff" }}
+                />
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100075734816966&sfnsn=wiwspwa&mibextid=RUbZ1f"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn"
+              >
+                <FontAwesomeIcon
+                  icon={faFacebook}
+                  style={{ color: "#ffffff" }}
+                />
+              </a>
               <a
                 href="https://www.instagram.com/ganapathy_pets_and_aquarium?utm_source=qr&igsh=ZGI0M2J4dm53Y3Y4"
                 target="_blank"
@@ -43,8 +71,31 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="btn"
               >
-                <FontAwesomeIcon icon={faMailBulk} style={{ color: "#ffffff" }} />
+                <FontAwesomeIcon icon={faEnvelope} 
+                  style={{ color: "#ffffff" }}
+                />
               </a>
+              <a
+                href="https://wa.me/918838078784"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn"
+              >
+                <FontAwesomeIcon
+                  icon={faWhatsapp}
+                  style={{ color: "#ffffff" }}
+                />
+              </a>
+              <a
+                href="tel:8838078784"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn"
+              >
+                <FontAwesomeIcon icon={faPhone} style={{ color: "#ffffff" }} />
+              </a>
+          
+          
             </div>
           </div>
         </div>

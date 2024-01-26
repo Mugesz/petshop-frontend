@@ -126,3 +126,8 @@
   background-color: #ff9900 !important;
   border:none !important
 }
+
+/* footer */
+.margin-left{
+  margin-right:200px;
+}
