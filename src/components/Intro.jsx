@@ -8,7 +8,7 @@ const Intro = () => {
     <div className="container mt-4">
       <div className="row">
         <div className="col-lg-6 text-center">
-          <h1 className="heading">Ganapathy pets and aquarium</h1>
+          <h1 className="heading">Ganapathy Pets and Aquarium</h1>
           <p className="para-intro text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
             voluptatem libero explicabo

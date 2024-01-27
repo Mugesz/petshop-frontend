@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Dog Collar",
+    "imageSrc": "https://images.unsplash.com/photo-1586671267731-da2cf3ceeb80?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZG9nJTIwY29sbGFyfGVufDB8fDB8fHww",
+    "description": "Premium dog collar for style and comfort. Your furry friend deserves the best!",
+    "prize" : "500"
+  },
+  {
+    "title": "Dog Belt",
+    "imageSrc": "https://images.unsplash.com/photo-1555265626-8ed04bde01a1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9nJTIwb24lMjBsZWFzaHxlbnwwfHwwfHx8MA%3D%3D",
+    "description": "Stylish and durable dog belt to keep your pet secure on walks and adventures.",
+    "prize" : "500"
+  },
+  {
+    "title": "Dog Chain",
+    "imageSrc": "https://i.ebayimg.com/images/g/0N4AAOSwQ81jN4SA/s-l1200.jpg",
+    "description": "Strong and reliable dog chain for training and outdoor activities.",
+    "prize" : "500"
+  },
+  {
+    "title": "Dog Leash",
+    "imageSrc": "https://cdn.pixabay.com/photo/2022/05/24/20/02/dog-7219238_1280.jpg",
+    "description": "Comfortable dog leash for easy control and enjoyable walks with your pet.",
+    "prize" : "500"
+  },
+  {
+    "title": "Mouth Guard",
+    "imageSrc": "https://media.istockphoto.com/id/954084164/photo/pitbull-terrier-portrait.jpg?s=612x612&w=0&k=20&c=GLroMc05Uk0FQhBT-YSOgh-jYJux8yPMO996nmNVObQ=",
+    "description": "Protective mouth guard to keep your pet safe during playtime.",
+    "prize" : "500"
+  },
+  {
+    "title": "Dog Cage",
+    "imageSrc": "https://images.pexels.com/photos/17206208/pexels-photo-17206208/free-photo-of-young-dogs-in-cage.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "description": "Spacious and secure dog cage for a cozy retreat for your pet.",
+    "prize" : "500"
+  }
+]

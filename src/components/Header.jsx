@@ -88,13 +88,13 @@ const Header = () => {
                 <Link className="dropdown-item" to="/fishfoods">
                   Fish foods
                 </Link>
-    
+
                 <Link className="dropdown-item" to="/birsfoods">
                   Birds foods
                 </Link>
-                
+
                 <a className="dropdown-item" href="#">
-                  Otherpets foods
+                  Medicine
                 </a>
               </div>
             </li>
@@ -112,16 +112,16 @@ const Header = () => {
                 Accessories
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="#">
+                <Link className="dropdown-item" to="/dogAccessories">
                   Dogs Accessories
-                </a>
-                <a className="dropdown-item" href="#">
+                </Link>
+                <Link className="dropdown-item" to="/fishAccessories">
                   Fish Accessories
-                </a>
-    
-                <a className="dropdown-item" href="#">
+                </Link>
+
+                <Link className="dropdown-item" to="/birdAccessories">
                   Birds Accessories
-                </a>
+                </Link>
               </div>
             </li>
           </ul>

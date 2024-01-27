@@ -11,6 +11,9 @@ import Otherpets from "./components/Otherpets";
 import Dogfoods from "./components/Dogfoods";
 import Fishfoods from "./components/Fishfoods";
 import Birdsfood from "./components/Birdsfood";
+import DogAccessories from "./components/DogAccessories";
+import FishAccessories from "./components/FishAccessories";
+import BirdAccessories from "./components/BirdAccessories";
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
         <Route path="/fishfoods" element={<Fishfoods />} />
         <Route path="/birsfoods" element={<Birdsfood />} />
         <Route path="/otherpets" element={<Otherpets />} />
+        <Route path="/dogAccessories" element={< DogAccessories/>} />
+        <Route path="/fishAccessories" element={<FishAccessories />} />
+        <Route path="/birdAccessories" element={< BirdAccessories/>} />
      
       </Routes>
     </div>

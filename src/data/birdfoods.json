@@ -2,7 +2,18 @@
     {
       "title": "Petslife",
       "imageSrc": "https://petindiaonline3.s3.ap-south-1.amazonaws.com/upload_product/294_20092022070050000000_petslife.jpg",
-      "description": " Royal Canin offers a premium selection of pet food designed to meet the specific nutritional needs of your furry friend. With high-quality ingredients, it ensures your pet receives the balanced diet they deserve.",
+      "description": " Petslife offers a premium selection of pet food designed by Royal Canin to meet the specific nutritional needs of your furry friend. With high-quality ingredients, it ensures your pet receives the balanced diet they deserve.",
+      "prize" : "500"
+    },{
+      "title": "Kaytee",
+      "imageSrc": "https://www.kaytee.com/-/media/Project/OneWeb/Kaytee/US/all-products/wild-bird/kaytee-select-wild-bird-seed/94634_Select_9lb.jpg4",
+      "description": " Kaytee provides a premium selection of pet food designed by Royal Canin, catering to the specific nutritional needs of your furry companion. With high-quality ingredients, it ensures your pet receives the balanced diet they deserve.",
+      "prize" : "500"
+    },
+    {
+      "title": "Sunflower seed",
+      "imageSrc": "https://cdn11.bigcommerce.com/s-1yy8qpwz3q/images/stencil/1280x1280/products/579/2364/Black_Oil_Sunflowers__07787.1666042819.JPG?c=2",
+      "description": " Kaytee provides a premium selection of pet food designed by Royal Canin, catering to the specific nutritional needs of your furry companion. With high-quality ingredients, it ensures your pet receives the balanced diet they deserve.",
       "prize" : "500"
     }
    
