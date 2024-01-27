@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import fishfoods from "../data/fishfoods.json";
@@ -8,13 +8,33 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
 
 const Fishfoods = () => {
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const filteredFishfoods = fishfoods.filter((item) =>
+    item.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const handleSearchChange = (e) => {
+    setSearchQuery(e.target.value);
+  };
+
   return (
     <>
       <Header />
       <h1 className="top-heading bg-light">Fish foods</h1>
+      <form className="d-flex justify-content-center" role="search">
+        <input
+          className="form-control me-2 reduce-form"
+          type="search"
+          placeholder="Search Fish Food Name Here ..."
+          aria-label="Search"
+          value={searchQuery}
+          onChange={handleSearchChange}
+        />
+      </form>
       <div className="container mt-0 bg-light">
         <div className="row">
-          {fishfoods.map((item, index) => (
+          {filteredFishfoods.map((item, index) => (
             <div key={index} className="col-md-4 mb-4">
               <div className="card">
                 <img
@@ -63,7 +83,7 @@ export const Contact = () => {
       <h3>
         Contact us{" "}
         <a
-          href="https://wa.me/918838078784?text=Hi,karthi I saw your website. May I know the Birds deatails ?"
+          href="https://wa.me/918838078784?text=Hi,karthi I saw your website. May I know the Fish Food details?"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-success"
@@ -77,4 +97,5 @@ export const Contact = () => {
     </div>
   );
 };
+
 export default Fishfoods;

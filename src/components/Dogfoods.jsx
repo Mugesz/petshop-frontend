@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import dogfoods from "../data/dogfoods.json";
@@ -8,29 +8,55 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
 
 const Dogfoods = () => {
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const filteredDogfoods = dogfoods.filter((food) =>
+    food.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const handleSearchChange = (e) => {
+    setSearchQuery(e.target.value);
+  };
+
   return (
     <>
       <Header />
       <h1 className="top-heading bg-light">Dog foods</h1>
+      <form className="d-flex justify-content-center" role="search">
+        <input
+          className="form-control me-2 reduce-form"
+          type="search"
+          placeholder="Search Food Name Here ..."
+          aria-label="Search"
+          value={searchQuery}
+          onChange={handleSearchChange}
+        />
+      </form>
       <div className="container mt-0 bg-light">
         <div className="row">
-          {dogfoods.map((item, index) => (
-            <div key={index} className="col-md-4 mb-4">
-              <div className="card">
-                <img
-                  src={item.imageSrc}
-                  className="card-img-top img-hover"
-                  alt="..."
-                  style={{ height: "200px", objectFit: "cover" }}
-                />
-                <div className="card-body">
-                  <h5 className="card-title text-center">{item.title}</h5>
-                  <p className="card-text">{item.description}</p>
+          {filteredDogfoods.length > 0 ? (
+            filteredDogfoods.map((item, index) => (
+              <div key={index} className="col-md-4 mb-4">
+                <div className="card">
+                  <img
+                    src={item.imageSrc}
+                    className="card-img-top img-hover"
+                    alt="..."
+                    style={{ height: "200px", objectFit: "cover" }}
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title text-center">{item.title}</h5>
+                    <p className="card-text">{item.description}</p>
+                  </div>
+                  <Contact />
                 </div>
-                <Contact />
               </div>
+            ))
+          ) : (
+            <div className="col-12 text-center mt-3">
+              <h3>No dog foods found.</h3>
             </div>
-          ))}
+          )}
           {/* Add two empty columns to create larger spaces */}
           <div className="col" />
           <div className="col" />
@@ -66,7 +92,7 @@ export const Contact = () => {
       <h3>
         Contact us{" "}
         <a
-          href="https://wa.me/918838078784?text=Hi,karthi I saw your website. May I know the Birds deatails ?"
+          href="https://wa.me/918838078784?text=Hi, I saw your website. May I know the dog food details?"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-success"

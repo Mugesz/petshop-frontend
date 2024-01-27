@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import fishAccessories from "../data/fishAccessories.json";
@@ -8,13 +8,33 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
 
 const FishAccessories = () => {
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const filteredFishAccessories = fishAccessories.filter((item) =>
+    item.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const handleSearchChange = (e) => {
+    setSearchQuery(e.target.value);
+  };
+
   return (
     <>
       <Header />
       <h1 className="top-heading bg-light">Fish Accessories</h1>
+      <form className="d-flex justify-content-center" role="search">
+        <input
+          className="form-control me-2 reduce-form"
+          type="Search"
+          placeholder="Search Fish Accessory Name Here ..."
+          aria-label="Search"
+          value={searchQuery}
+          onChange={handleSearchChange}
+        />
+      </form>
       <div className="container mt-0 bg-light">
         <div className="row">
-          {fishAccessories.map((item, index) => (
+          {filteredFishAccessories.map((item, index) => (
             <div key={index} className="col-md-4 mb-4">
               <div className="card">
                 <img
@@ -48,10 +68,7 @@ const FishAccessories = () => {
             <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#ffffff" }} />
           </a>{" "}
           <a href="tel:8838078784" className="btn btn-info">
-            <FontAwesomeIcon
-              icon={faPhoneSquare}
-              style={{ color: "#ffffff" }}
-            />
+            <FontAwesomeIcon icon={faPhoneSquare} style={{ color: "#ffffff" }} />
           </a>
         </h3>
       </div>
@@ -66,7 +83,7 @@ export const Contact = () => {
       <h3>
         Contact us{" "}
         <a
-          href="https://wa.me/918838078784?text=Hi,karthi I saw your website. May I know the Birds deatails ?"
+          href="https://wa.me/918838078784?text=Hi,karthi I saw your website. May I know the Fish Accessories details?"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-success"
@@ -80,4 +97,5 @@ export const Contact = () => {
     </div>
   );
 };
-export default FishAccessories
+
+export default FishAccessories;
