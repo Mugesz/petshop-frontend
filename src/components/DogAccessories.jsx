@@ -26,7 +26,7 @@ const DogAccessories = () => {
         <input
           className="form-control me-2 reduce-form"
           type="search"
-          placeholder="Search Accessory Name Here ..."
+          placeholder="Search Dog Accessory Name Here ..."
           aria-label="Search"
           value={searchQuery}
           onChange={handleSearchChange}
