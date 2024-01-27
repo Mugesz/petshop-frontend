@@ -85,7 +85,7 @@ const Footer = () => {
                 />
               </a>
               <a
-                href="https://wa.me/918838078784"
+                href="https://wa.me/919363290876"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn"
@@ -96,7 +96,7 @@ const Footer = () => {
                 />
               </a>
               <a
-                href="tel:8838078784"
+                href="tel:9363290876"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn"

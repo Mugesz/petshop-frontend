@@ -57,14 +57,14 @@ const Fishfoods = () => {
         <h3>
           For more details Contact{" "}
           <a
-            href="https://wa.me/918838078784?text=Hi, I saw your website. May I know what products you have?"
+            href="https://wa.me/919363290876?text=Hi, I saw your website. May I know what products you have?"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-success"
           >
             <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#ffffff" }} />
           </a>{" "}
-          <a href="tel:8838078784" className="btn btn-info">
+          <a href="tel:9363290876" className="btn btn-info">
             <FontAwesomeIcon
               icon={faPhoneSquare}
               style={{ color: "#ffffff" }}
@@ -83,14 +83,14 @@ export const Contact = () => {
       <h3>
         Contact us{" "}
         <a
-          href="https://wa.me/918838078784?text=Hi,karthi I saw your website. May I know the Fish Food details?"
+          href="https://wa.me/919363290876?text=Hi,karthi I saw your website. May I know the Fish Food details?"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-success"
         >
           <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#ffffff" }} />
         </a>{" "}
-        <a href="tel:8838078784" className="btn btn-info">
+        <a href="tel:9363290876" className="btn btn-info">
           <FontAwesomeIcon icon={faPhoneSquare} style={{ color: "#ffffff" }} />
         </a>
       </h3>
