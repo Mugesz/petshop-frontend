@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import AllBirds from "../data/birds.json";
@@ -8,29 +8,55 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
 
 const Bird = () => {
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const filteredBirds = AllBirds.filter((bird) =>
+    bird.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const handleSearchChange = (e) => {
+    setSearchQuery(e.target.value);
+  };
+
   return (
     <>
       <Header />
       <h1 className="top-heading bg-light text-center">Bird Section</h1>
+      <form className="d-flex justify-content-center" role="search">
+        <input
+          className="form-control me-2 reduce-form"
+          type="Search"
+          placeholder="Search  Bird Name Here ..."
+          aria-label="Search"
+          value={searchQuery}
+          onChange={handleSearchChange}
+        />
+      </form>
       <div className="container mt-0 bg-light">
         <div className="row">
-          {AllBirds.map((item, index) => (
-            <div key={index} className="col-md-4 mb-4">
-              <div className="card">
-                <img
-                  src={item.imageSrc}
-                  className="card-img-top img-hover"
-                  alt="..."
-                  style={{ height: "200px", objectFit: "cover" }}
-                />
-                <div className="card-body">
-                  <h5 className="card-title text-center">{item.title}</h5>
-                  <p className="card-text">{item.description}</p>
+          {filteredBirds.length > 0 ? (
+            filteredBirds.map((item, index) => (
+              <div key={index} className="col-md-4 mb-4">
+                <div className="card">
+                  <img
+                    src={item.imageSrc}
+                    className="card-img-top img-hover"
+                    alt="..."
+                    style={{ height: "200px", objectFit: "cover" }}
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title text-center">{item.title}</h5>
+                    <p className="card-text">{item.description}</p>
+                  </div>
+                  <Contact />
                 </div>
-                <Contact />
               </div>
+            ))
+          ) : (
+            <div className="col-12 text-center mt-3">
+              <h3>No birds found.</h3>
             </div>
-          ))}
+          )}
         </div>
       </div>
       <div className="text-center mt-3 mb-3">
@@ -45,10 +71,7 @@ const Bird = () => {
             <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#ffffff" }} />
           </a>{" "}
           <a href="tel:8838078784" className="btn btn-info">
-            <FontAwesomeIcon
-              icon={faPhoneSquare}
-              style={{ color: "#ffffff" }}
-            />
+            <FontAwesomeIcon icon={faPhoneSquare} style={{ color: "#ffffff" }} />
           </a>
         </h3>
       </div>
