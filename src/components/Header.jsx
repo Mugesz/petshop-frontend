@@ -93,9 +93,9 @@ const Header = () => {
                   Birds foods
                 </Link>
 
-                <a className="dropdown-item" href="#">
+                <Link className="dropdown-item" to="/medicine">
                   Medicine
-                </a>
+                </Link>
               </div>
             </li>
 

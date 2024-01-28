@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Fish Medicine",
+      "imageSrc": "https://rukminim2.flixcart.com/image/850/1000/l251xu80/pet-health-supplement/v/x/p/400-fish-medicine-for-aquarium-pond-general-aid-pack-of-2-original-imagdk6cps2x2ytu.jpeg?q=90&crop=false",
+      "description": "Support the health of your aquatic companions with our fish medicine. Specifically formulated for aquarium and pond use, this medicine provides general aid to ensure the well-being of your fish",
+      "prize" : "500"
+    },{
+      "title": "Bird Medicine",
+      "imageSrc": "https://m.media-amazon.com/images/I/61zWPAGLkiL._AC_UF1000,1000_QL80_.jpg",
+      "description": "Our bird medicine is designed to address the unique health needs of your feathered friends. With a focus on avian well-being, this medicine offers essential support for a healthy and happy bird.",
+      "prize" : "500"
+    },
+    {
+        "title": "Otherpets Medicine",
+        "imageSrc": "https://img.freepik.com/premium-photo/medicine-vitamin-dogs-veterinary-drug-pets_72932-3953.jpg",
+        "description": "Ensure the health and vitality of your other pets with our specialized medicine. Formulated to meet the diverse needs of various companion animals, this medicine provides essential support for their overall well-being.",
+        "prize" : "500"
+      }
+   
+  ]
+  

@@ -14,6 +14,7 @@ import Birdsfood from "./components/Birdsfood";
 import DogAccessories from "./components/DogAccessories";
 import FishAccessories from "./components/FishAccessories";
 import BirdAccessories from "./components/BirdAccessories";
+import Medicines from "./components/Medicines";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/fishfoods" element={<Fishfoods />} />
         <Route path="/birsfoods" element={<Birdsfood />} />
         <Route path="/otherpets" element={<Otherpets />} />
+        <Route path="/medicine" element={<Medicines />} />
         <Route path="/dogAccessories" element={< DogAccessories/>} />
         <Route path="/fishAccessories" element={<FishAccessories />} />
         <Route path="/birdAccessories" element={< BirdAccessories/>} />
