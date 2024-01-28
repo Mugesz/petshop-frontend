@@ -10,8 +10,8 @@ const Intro = () => {
         <div className="col-lg-6 text-center">
           <h1 className="heading">Ganapathy Pets and Aquarium</h1>
           <p className="para-intro text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-            voluptatem libero explicabo
+            "Welcome to Ganapathy Pets and Aquarium, where tails wag and purrs are plenty!
+            Your pets' happiness begins here." 
           </p>
           <h3 className="h3-intro">
             Contact us{" "}
@@ -24,7 +24,10 @@ const Intro = () => {
               <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#ffffff" }} />
             </a>{" "}
             <a href="tel:9363290876" className="btn btn-info">
-              <FontAwesomeIcon icon={faPhoneSquare} style={{ color: "#ffffff" }} />
+              <FontAwesomeIcon
+                icon={faPhoneSquare}
+                style={{ color: "#ffffff" }}
+              />
             </a>
           </h3>
         </div>

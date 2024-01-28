@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, } from "react-router-dom";
 
 const Main = () => {
 
@@ -25,7 +25,7 @@ const Main = () => {
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <NavLink to='/fish' className="btn btn-primary">
+                <NavLink to='/fish' className="btn btn-primary" onClick={handleLinkClick}>
                   view All fishes
                 </NavLink>
               </div>

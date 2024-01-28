@@ -2,48 +2,43 @@
     {
       "title": "Royal",
       "imageSrc": "https://images-eu.ssl-images-amazon.com/images/I/61CsQ9WTM5L._AC_UL600_SR600,600_.jpg",
-      "description": " Royal Canin offers a premium selection of pet food designed to meet the specific nutritional needs of your furry friend. With high-quality ingredients, it ensures your pet receives the balanced diet they deserve.",
+      "description": "Elevate your fish's dining experience with Royal fish food. Specially formulated for optimal nutrition, this premium feed ensures your aquatic friends thrive in their underwater haven. ",
       "prize" : "500"
     },
     {
         "title": "Taiyo ",
         "imageSrc": "https://www.jiomart.com/images/product/original/rvuz8zhbmh/petslife-guinea-pig-complete-nutritional-food-for-all-breeds-150g-product-images-orvuz8zhbmh-p600159629-1-202304042003.jpg?im=Resize=(420,420)",
-        "description": "Pedigree provides nutritious and tasty dog food, crafted to support your canine companion's overall well-being. With a focus on quality ingredients, Pedigree helps keep your dog healthy and happy.",
+        "description": "Dive into the world of Taiyo fish food! Tailored for all breeds, this complete and nutritional delight from Petslife guarantees the well-being and vibrancy of your aquatic companions.",
         "prize" : "500"
       },  {
         "title": "Optimum",
         "imageSrc": "https://m.media-amazon.com/images/I/71dlmLBnGZL.jpg",
-        "description": " Drools offers a range of dog food that boosts digestive ability and supports your pet's health. With a blend of essential nutrients, Drools ensures your dog stays active and joyful.",
+        "description": "Optimum health begins with Drools fish food! Meticulously crafted to boost digestive ability, this feed supports the vitality and joy of your underwater companions.",
         "prize" : "500"
       }, 
       {
         "title": "Hallo feed",
         "imageSrc": "https://m.media-amazon.com/images/I/712qTjhRiGL._AC_UF1000,1000_QL80_.jpg",
-        "description": " Canoin Creek provides high-quality pet food, ensuring the well-being of your pets. With a commitment to excellence, Canoin Creek offers a delicious and nutritious option for your furry companions.",
+        "description": "HALLO FEED unique Flake Fish Food is manufactured for all tropical fish including tetras, tiger barbs, gouramis, small cichlids & other small varieties. They are formulated with high quality brine Shrimp, black worms, earthworms.",
         "prize" : "500"
       },
       {
         "title": "Champion",
         "imageSrc": "https://rukminim2.flixcart.com/image/850/1000/kr9jafk0/pet-food/u/a/i/0-025-fish-champion-platy-fish-feed-50g-petzlifeworld-original-imag532xh3zhbjne.jpeg?q=90&crop=false",
-        "description": " Canoin Creek provides high-quality pet food, ensuring the well-being of your pets. With a commitment to excellence, Canoin Creek offers a delicious and nutritious option for your furry companions.",
+        "description": "Champion fish feed offers a delightful and nutritious option for your aquatic companions. Enhance the colors and well-being of your finned friends with every feeding.",
         "prize" : "500"
       },
-      {
-        "title": "Hallo feed",
-        "imageSrc": "https://m.media-amazon.com/images/I/712qTjhRiGL._AC_UF1000,1000_QL80_.jpg",
-        "description": " Canoin Creek provides high-quality pet food, ensuring the well-being of your pets. With a commitment to excellence, Canoin Creek offers a delicious and nutritious option for your furry companions.",
-        "prize" : "500"
-      },
+     
       {
         "title": "Okiko",
         "imageSrc": "https://rukminim2.flixcart.com/image/850/1000/j7jd2fk0/pet-food/t/r/4/100-fish-okikoplatinum-okiko-original-imaexqhyhneszc2c.jpeg?q=20&crop=false",
-        "description": " Okiko provides high-quality fish food, ensuring the well-being of your aquatic pets. With a commitment to excellence, Okiko offers a delicious and nutritious option for your finned companions.",
+        "description": " Okiko provides high-quality flowerhorn fish food, ensuring the well-being of your aquatic pets. With a commitment to excellence, Okiko offers a delicious and nutritious option for your finned companions.",
         "prize" : "500"
       },
       {
         "title": "Xo",
         "imageSrc": "https://5.imimg.com/data5/ECOM/Default/2023/3/GE/AS/CZ/12142841/71tpyncqhbl-sy879-pibundle-2-topright-0-0-sx494sy879sh20-500x500.jpg",
-        "description": "Xo offers premium fish food, crafted to ensure the well-being of your aquatic pets. With a dedication to excellence, Xo provides a delicious and nutritious option for your finned companions.",
+        "description": "Xo offers flowerhorn fish food, crafted to ensure the well-being of your aquatic pets. With a dedication to excellence, Xo provides a delicious and nutritious option for your finned companions.",
         "prize" : "500"
       },
       {
