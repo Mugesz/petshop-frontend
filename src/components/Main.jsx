@@ -1,12 +1,17 @@
 import React from "react";
-import { Link, NavLink, } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import {  Link, ScrollLink, animateScroll as scroll } from "react-scroll";
 
 const Main = () => {
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
 
-  const handleLinkClick=(e)=>{
-    e.preventDefault()
-  }
   return (
+
+ 
+
+
     <>
     <h1 className="text-center main-header mt-3">What We Have</h1>
      <div className="container mt-0">
@@ -25,14 +30,14 @@ const Main = () => {
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <NavLink to='/fish' className="btn btn-primary" onClick={handleLinkClick}>
+                <NavLink to='/fish' className="btn btn-primary" onClick={scrollToTop} >
                   view All fishes
                 </NavLink>
               </div>
             </div>
           </div>
 
-          <div className="col-sm-6 mb-3 mb-sm-0">
+         <div className="col-sm-6 mb-3 mb-sm-0">
             <div className="card">
               <img
                 src="https://www.dailypaws.com/thmb/rwL54b2y1kllOZLhfppcfbkrmaU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/golden-lab-puppy-664540826-2000-b29bcc58c71a498eb5ecd5d0b2b8e82b.jpg"
@@ -46,9 +51,9 @@ const Main = () => {
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <Link to='/dogs' className="btn btn-primary">
+                <NavLink to='/dogs' className="btn btn-primary" onClick={scrollToTop}>
                   view All Dogs
-                </Link>
+                </NavLink>
               </div>
             </div>
           </div>
@@ -67,9 +72,9 @@ const Main = () => {
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <Link to={'/birds'} className="btn btn-primary">
+                <NavLink to={'/birds'} className="btn btn-primary" onClick={scrollToTop}>
                   view All Birds
-                </Link>
+                </NavLink>
               </div>
             </div>
           </div>
@@ -88,9 +93,9 @@ const Main = () => {
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <Link to={'/pets'} className="btn btn-primary">
+                <NavLink to={'/pets'} className="btn btn-primary" onClick={scrollToTop}>
                   view All pets
-                </Link>
+                </NavLink>
               </div>
             </div>
           </div>
@@ -121,23 +126,19 @@ const Main = () => {
                 Foods
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <Link className="dropdown-item" to="/dogfoods" onClick={handleLinkClick}>
+                <NavLink className="dropdown-item" to="/dogfoods" onClick={scrollToTop}>
                   Dogs foods
-                </Link>
-                <Link className="dropdown-item" to="/fishfoods">
+                </NavLink>
+                <NavLink className="dropdown-item" to="/fishfoods" onClick={scrollToTop}>
                   Fish foods
-                </Link>
+                </NavLink>
 
-                <Link className="dropdown-item" to="/birsfoods">
+                <NavLink className="dropdown-item" to="/birsfoods" onClick={scrollToTop}>
                   Birds foods
-                </Link>
-
-                <a className="dropdown-item" href="#">
-                  Otherpets foods
-                </a>
-                <a className="dropdown-item" href="#">
+                </NavLink>
+                <NavLink className="dropdown-item" onClick={scrollToTop}>
                   Medicine
-                </a>
+                </NavLink>
               </div>
             
 
@@ -172,20 +173,20 @@ const Main = () => {
                 Accessories
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <Link className="dropdown-item" to="/dogAccessories">
+                <NavLink className="dropdown-item" to="/dogAccessories" onClick={scrollToTop}>
                   Dogs Accessories
-                </Link>
-                <Link className="dropdown-item" to="/fishAccessories">
+                </NavLink>
+                <NavLink className="dropdown-item" to="/fishAccessories" onClick={scrollToTop}>
                   Fish Accessories
-                </Link>
+                </NavLink>
 
-                <Link className="dropdown-item" to="/birdAccessories">
+                <NavLink className="dropdown-item" to="/birdAccessories" onClick={scrollToTop}>
                   Birds Accessories
-                </Link>
+                </NavLink>
 
-                <Link className="dropdown-item" to="/otherpetAccessories">
+                <NavLink className="dropdown-item" to="/otherpetAccessories" onClick={scrollToTop}>
                   Otherpets Accessories
-                </Link>
+                </NavLink>
               </div>
             
               </div>
