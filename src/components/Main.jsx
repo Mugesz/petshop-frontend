@@ -1,7 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Main = () => {
+
+  const handleLinkClick=(e)=>{
+    e.preventDefault()
+  }
   return (
     <>
     <h1 className="text-center main-header mt-3">What We Have</h1>
@@ -21,9 +25,9 @@ const Main = () => {
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <Link to={'/fish'} className="btn btn-primary">
+                <NavLink to='/fish' className="btn btn-primary">
                   view All fishes
-                </Link>
+                </NavLink>
               </div>
             </div>
           </div>
@@ -42,7 +46,7 @@ const Main = () => {
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <Link to={'/dogs'} href="#" className="btn btn-primary">
+                <Link to='/dogs' className="btn btn-primary">
                   view All Dogs
                 </Link>
               </div>
@@ -117,7 +121,7 @@ const Main = () => {
                 Foods
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <Link className="dropdown-item" to="/dogfoods">
+                <Link className="dropdown-item" to="/dogfoods" onClick={handleLinkClick}>
                   Dogs foods
                 </Link>
                 <Link className="dropdown-item" to="/fishfoods">

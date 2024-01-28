@@ -16,14 +16,14 @@ const Intro = () => {
           <h3 className="h3-intro">
             Contact us{" "}
             <a
-              href="https://wa.me/918838078784?text=Hii karthi I saw your website . My I know what are the products which you have "
+              href="https://wa.me/919363290876?text=Hii karthi I saw your website . My I know what are the products which you have "
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-success me-2"
             >
               <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#ffffff" }} />
             </a>{" "}
-            <a href="tel:8838078784" className="btn btn-info">
+            <a href="tel:9363290876" className="btn btn-info">
               <FontAwesomeIcon icon={faPhoneSquare} style={{ color: "#ffffff" }} />
             </a>
           </h3>

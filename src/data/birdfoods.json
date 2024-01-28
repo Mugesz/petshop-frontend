@@ -2,18 +2,30 @@
     {
       "title": "Petslife",
       "imageSrc": "https://petindiaonline3.s3.ap-south-1.amazonaws.com/upload_product/294_20092022070050000000_petslife.jpg",
-      "description": " Petslife offers a premium selection of pet food designed by Royal Canin to meet the specific nutritional needs of your furry friend. With high-quality ingredients, it ensures your pet receives the balanced diet they deserve.",
+      "description": "Petslife handfeeding formula is an instant formula for all baby birds.Petslife handfeeding formula is a complete nutritious diet to ensure the babies grow faster, wean earlier and develop a better and brighter plumage.",
       "prize" : "500"
     },{
       "title": "Kaytee",
       "imageSrc": "https://www.kaytee.com/-/media/Project/OneWeb/Kaytee/US/all-products/wild-bird/kaytee-select-wild-bird-seed/94634_Select_9lb.jpg4",
-      "description": " Kaytee provides a premium selection of pet food designed by Royal Canin, catering to the specific nutritional needs of your furry companion. With high-quality ingredients, it ensures your pet receives the balanced diet they deserve.",
+      "description": " Kaytee provides a premium selection of pet food designed by Royal Canin, catering to the specific nutritional needs of your birds companion food. With high-quality ingredients, it ensures your birds receives the balanced diet they deserve.",
       "prize" : "500"
     },
     {
       "title": "Sunflower seed",
       "imageSrc": "https://cdn11.bigcommerce.com/s-1yy8qpwz3q/images/stencil/1280x1280/products/579/2364/Black_Oil_Sunflowers__07787.1666042819.JPG?c=2",
-      "description": " Kaytee provides a premium selection of pet food designed by Royal Canin, catering to the specific nutritional needs of your furry companion. With high-quality ingredients, it ensures your pet receives the balanced diet they deserve.",
+      "description": "Small black oil sunflower seeds are meatier and have a higher oil content than grey sunflower seeds, providing more nutrition and more calories per seed. They also have thinner shells than grey sunflower seeds making them easier for small birds to open. Black oil sunflower seeds are a favorite for backyard wild bird feeding stations.",
+      "prize" : "500"
+    },
+    {
+      "title": "Foxtail Millet",
+      "imageSrc": "https://www.agrifarming.in/wp-content/uploads/2017/07/Foxtail-Millet-Seeds..jpg",
+      "description": " Foxtail millet is also great for breeding pairs, or those raising young. Foxtail millet is an important supplementary feed for young or sick birds. Because foxtail millet is a coveted treat, many species of birds tend to consume too much of it.",
+      "prize" : "500"
+    },
+    {
+      "title": "Maize",
+      "imageSrc": "https://images5.alphacoders.com/368/368867.jpg",
+      "description": "Give your birds corn since it provides many birds with the same nutrition as corn does for people. This food is balanced and nutritious for birds. is a high energy, nutrient-rich, easily digestible diet that is suitable for a range of birds.",
       "prize" : "500"
     }
    
