@@ -1,7 +1,7 @@
 import React from "react";
 import bird from "../assets/img/bird@1.jpg";
-import dog from "../assets/img/dog@1.jpg"
-import fish from "../assets/img/fish@1.jpg"
+import dog from "../assets/img/dog@1.jpg";
+import fish from "../assets/img/fish@1.jpg";
 
 import "./styles.css";
 
@@ -13,31 +13,42 @@ const Having = () => {
           <img src={fish} alt="" className="having-img" />
         </div>
         <div className="mt-5 mb-5">
-          <h5 className="card-title text-center mb-3">Fishes starts from ₹10</h5>
+          <h5 className="card-title text-center mb-3">
+            Fishes starts from ₹10
+          </h5>
           <p className="card-text-1">
-            We will give you a pair of fishes which contain one male and one
-            female. Types such as...
+            Dive into the world of aquatic beauty with our fish collection
+            starting at just ₹10. Each pair includes a male and a female,
+            offering a variety of mesmerizing species to enhance your underwater
+            experience.
           </p>
         </div>
         <div className="mt-5 mb-5">
-          <img src={dog} alt="" className="having-img"/>
+          <img src={dog} alt="" className="having-img" />
         </div>
 
         <div className="mt-5 mb-5">
-          <h5 className="card-title text-center mb-3">Puppies starts from ₹3000</h5>
+          <h5 className="card-title text-center mb-3">
+            Puppies starts from ₹3000
+          </h5>
           <p className="card-text-1">
-            This card has supporting text below as a natural lead-in to
-            additional content.
+            Dive into the world of aquatic beauty with our fish collection
+            starting at just ₹10. Each pair includes a male and a female,
+            offering a variety of mesmerizing species to enhance your underwater
+            experience.
           </p>
         </div>
         <div className="mt-5 mb-5">
-          <img src={bird} alt="" className="having-img"/>
+          <img src={bird} alt="" className="having-img" />
         </div>
         <div className="mt-5 mb-5">
-          <h5 className="card-title text-center mb-3">Birds starts from ₹200</h5>
+          <h5 className="card-title text-center mb-3">
+            Birds starts from ₹200
+          </h5>
           <p className="card-text-1 mb-5">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content.
+            Soar to new heights of companionship with our feathered friends,
+            starting from ₹200. From colorful parakeets to charming canaries,
+            discover the joy of having a melodious companion in your home.
           </p>
         </div>
       </div>
