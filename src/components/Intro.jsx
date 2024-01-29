@@ -11,7 +11,7 @@ const Intro = () => {
           <h1 className="heading">Ganapathy Pets and Aquarium</h1>
           <p className="para-intro text-center">
             "Welcome to Ganapathy Pets and Aquarium, where tails wag and purrs are plenty!
-            Your pets' happiness begins here." 
+            Your pet's happiness begins here." 
           </p>
           <h3 className="h3-intro">
             Contact us{" "}
