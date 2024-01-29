@@ -17,10 +17,8 @@ const Having = () => {
             Fishes starts from ₹10
           </h5>
           <p className="card-text-1">
-            Dive into the world of aquatic beauty with our fish collection
-            starting at just ₹10. Each pair includes a male and a female,
-            offering a variety of mesmerizing species to enhance your underwater
-            experience.
+            Dive into the world of aquatic beauty with our fish collection. Each
+            pair includes a male and a female,
           </p>
         </div>
         <div className="mt-5 mb-5">
@@ -32,10 +30,8 @@ const Having = () => {
             Puppies starts from ₹3000
           </h5>
           <p className="card-text-1">
-            Dive into the world of aquatic beauty with our fish collection
-            starting at just ₹10. Each pair includes a male and a female,
-            offering a variety of mesmerizing species to enhance your underwater
-            experience.
+            Wagging tails and boundless joy await with our adorable puppies
+            .Find your perfect canine companion.
           </p>
         </div>
         <div className="mt-5 mb-5">
@@ -47,8 +43,7 @@ const Having = () => {
           </h5>
           <p className="card-text-1 mb-5">
             Soar to new heights of companionship with our feathered friends,
-            starting from ₹200. From colorful parakeets to charming canaries,
-            discover the joy of having a melodious companion in your home.
+            From colorful parakeets to charming canaries,
           </p>
         </div>
       </div>
