@@ -1,14 +1,18 @@
 import React from "react";
 import Logo from "../assets/img/logo.png";
 import { Link, NavLink } from "react-router-dom";
+import {animateScroll as scroll } from "react-scroll";
 import "./styles.css";
 
 const Header = () => {
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
   return (
     <nav className="navbar navbar-expand-lg nav-bg fixed-top">
       <div className="container-fluid d-flex align-items-center justify-content-between">
         <div className="d-flex">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/" onClick={scrollToTop}>
             <img
               src={Logo}
               className="logo"
@@ -37,17 +41,20 @@ const Header = () => {
                 to="/"
                 activeClassName="active"
                 exact
+                onClick={scrollToTop}
               >
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/fish" activeClassName="active">
+              <NavLink className="nav-link" to="/fish" activeClassName="active"
+               onClick={scrollToTop}>
                 Fish
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/dogs" activeClassName="active">
+              <NavLink className="nav-link" to="/dogs" activeClassName="active"
+               onClick={scrollToTop}>
                 Dogs
               </NavLink>
             </li>
@@ -56,6 +63,7 @@ const Header = () => {
                 className="nav-link"
                 to="/otherpets"
                 activeClassName="active"
+                onClick={scrollToTop}
               >
                 Otherpets
               </NavLink>
@@ -65,6 +73,7 @@ const Header = () => {
                 className="nav-link"
                 to="/birds"
                 activeClassName="active"
+                onClick={scrollToTop}
               >
                 Birds
               </NavLink>
@@ -82,18 +91,18 @@ const Header = () => {
                 Foods
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <Link className="dropdown-item" to="/dogfoods">
+                <Link className="dropdown-item" to="/dogfoods"  onClick={scrollToTop}>
                   Dogs foods
                 </Link>
-                <Link className="dropdown-item" to="/fishfoods">
+                <Link className="dropdown-item" to="/fishfoods"  onClick={scrollToTop}>
                   Fish foods
                 </Link>
 
-                <Link className="dropdown-item" to="/birsfoods">
+                <Link className="dropdown-item" to="/birsfoods"  onClick={scrollToTop}>
                   Birds foods
                 </Link>
 
-                <Link className="dropdown-item" to="/medicine">
+                <Link className="dropdown-item" to="/medicine"  onClick={scrollToTop}>
                   Medicine
                 </Link>
               </div>
@@ -112,14 +121,14 @@ const Header = () => {
                 Accessories
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <Link className="dropdown-item" to="/dogAccessories">
+                <Link className="dropdown-item" to="/dogAccessories"  onClick={scrollToTop}>
                   Dogs Accessories
                 </Link>
-                <Link className="dropdown-item" to="/fishAccessories">
+                <Link className="dropdown-item" to="/fishAccessories"  onClick={scrollToTop}>
                   Fish Accessories
                 </Link>
 
-                <Link className="dropdown-item" to="/birdAccessories">
+                <Link className="dropdown-item" to="/birdAccessories"  onClick={scrollToTop}>
                   Birds Accessories
                 </Link>
               </div>
