@@ -34,11 +34,9 @@ const Testimonials = () => {
           <div className="col-sm-12 col-md-3 mb-5 mt-5 ">
             <div className="card">
               <p className="testimonial-text">
-                "Vestibulum vitae ullamcorper ligula. Ut quis mauris accumsan,
-                lobortis odio at, fermentum sapien. Integer volutpat sapien nec
-                justo scelerisque."
+                "Good budget to buy a pets and fishes related things.Owners were friendly."
               </p>
-              <p className="testimonial-author">- Michael Johnson</p>
+              <p className="testimonial-author">- Gopal</p>
             </div>
           </div>
         </div>
