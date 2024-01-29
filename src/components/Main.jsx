@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Link, ScrollLink, animateScroll as scroll } from "react-scroll";
+import {animateScroll as scroll } from "react-scroll";
 
 const Main = () => {
   const scrollToTop = () => {
