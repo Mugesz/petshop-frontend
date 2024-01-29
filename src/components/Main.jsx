@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import {  Link, ScrollLink, animateScroll as scroll } from "react-scroll";
+import { Link, ScrollLink, animateScroll as scroll } from "react-scroll";
 
 const Main = () => {
   const scrollToTop = () => {
@@ -8,13 +8,9 @@ const Main = () => {
   };
 
   return (
-
- 
-
-
     <>
-    <h1 className="text-center main-header mt-3">What We Have</h1>
-     <div className="container mt-0">
+      <h1 className="text-center main-header mt-3">What We Have</h1>
+      <div className="container mt-0">
         <div className="row">
           <div className="col-sm-6 mb-3 mb-sm-0">
             <div className="card">
@@ -27,17 +23,23 @@ const Main = () => {
               <div className="card-body">
                 <h5 className="card-title text-center">Fishes</h5>
                 <p className="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  Discover a world of aquatic wonders with our exquisite
+                  collection of fishes. From vibrant tropical species to
+                  graceful underwater companions, find the perfect finned friend
+                  for your aquarium.
                 </p>
-                <NavLink to='/fish' className="btn btn-primary" onClick={scrollToTop} >
+                <NavLink
+                  to="/fish"
+                  className="btn btn-primary"
+                  onClick={scrollToTop}
+                >
                   view All fishes
                 </NavLink>
               </div>
             </div>
           </div>
 
-         <div className="col-sm-6 mb-3 mb-sm-0">
+          <div className="col-sm-6 mb-3 mb-sm-0">
             <div className="card">
               <img
                 src="https://www.dailypaws.com/thmb/rwL54b2y1kllOZLhfppcfbkrmaU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/golden-lab-puppy-664540826-2000-b29bcc58c71a498eb5ecd5d0b2b8e82b.jpg"
@@ -48,10 +50,15 @@ const Main = () => {
               <div className="card-body">
                 <h5 className="card-title text-center">Dogs</h5>
                 <p className="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  Unconditional love meets boundless energy. Our delightful dogs
+                  are not just pets; they're loyal companions, ready to share
+                  joy, laughter, and countless unforgettable moments with you.
                 </p>
-                <NavLink to='/dogs' className="btn btn-primary" onClick={scrollToTop}>
+                <NavLink
+                  to="/dogs"
+                  className="btn btn-primary"
+                  onClick={scrollToTop}
+                >
                   view All Dogs
                 </NavLink>
               </div>
@@ -69,10 +76,16 @@ const Main = () => {
               <div className="card-body">
                 <h5 className="card-title text-center">Birds</h5>
                 <p className="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  Soar into the enchanting realm of birds. From colorful parrots
+                  to melodious canaries, our feathered friends bring song and
+                  vibrancy to your life. Explore our avian assortment and let
+                  your spirits take flight.
                 </p>
-                <NavLink to={'/birds'} className="btn btn-primary" onClick={scrollToTop}>
+                <NavLink
+                  to={"/birds"}
+                  className="btn btn-primary"
+                  onClick={scrollToTop}
+                >
                   view All Birds
                 </NavLink>
               </div>
@@ -90,10 +103,16 @@ const Main = () => {
               <div className="card-body">
                 <h5 className="card-title text-center">other pets</h5>
                 <p className="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  Beyond the ordinary, our collection of unique pets awaits your
+                  affection. Whether it's a small mammal, reptile, or any other
+                  delightful creature, discover the extraordinary joy of having
+                  a non-traditional companion.
                 </p>
-                <NavLink to={'/pets'} className="btn btn-primary" onClick={scrollToTop}>
+                <NavLink
+                  to={"/pets"}
+                  className="btn btn-primary"
+                  onClick={scrollToTop}
+                >
                   view All pets
                 </NavLink>
               </div>
@@ -111,38 +130,49 @@ const Main = () => {
               <div className="card-body">
                 <h5 className="card-title text-center">Foods</h5>
                 <p className="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  Treat your pets to a feast of flavors! Explore our range of
+                  high-quality foods, specially crafted to meet the nutritional
+                  needs of your beloved companions. From dog kibbles to fish
+                  flakes, we have a delectable menu for every palate..
                 </p>
-              
-              <a
-                className=" dropdown-toggle btn btn-primary"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Foods
-              </a>
-              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <NavLink className="dropdown-item" to="/dogfoods" onClick={scrollToTop}>
-                  Dogs foods
-                </NavLink>
-                <NavLink className="dropdown-item" to="/fishfoods" onClick={scrollToTop}>
-                  Fish foods
-                </NavLink>
 
-                <NavLink className="dropdown-item" to="/birsfoods" onClick={scrollToTop}>
-                  Birds foods
-                </NavLink>
-                <NavLink className="dropdown-item" onClick={scrollToTop}>
-                  Medicine
-                </NavLink>
-              </div>
-            
+                <a
+                  className=" dropdown-toggle btn btn-primary"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Foods
+                </a>
+                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <NavLink
+                    className="dropdown-item"
+                    to="/dogfoods"
+                    onClick={scrollToTop}
+                  >
+                    Dogs foods
+                  </NavLink>
+                  <NavLink
+                    className="dropdown-item"
+                    to="/fishfoods"
+                    onClick={scrollToTop}
+                  >
+                    Fish foods
+                  </NavLink>
 
-            
+                  <NavLink
+                    className="dropdown-item"
+                    to="/birsfoods"
+                    onClick={scrollToTop}
+                  >
+                    Birds foods
+                  </NavLink>
+                  <NavLink className="dropdown-item" onClick={scrollToTop}>
+                    Medicine
+                  </NavLink>
+                </div>
               </div>
             </div>
           </div>
@@ -158,37 +188,55 @@ const Main = () => {
               <div className="card-body">
                 <h5 className="card-title text-center">Accessories</h5>
                 <p className="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  Elevate your pet's lifestyle with our curated selection of
+                  accessories. From cozy beds to stylish leashes, our collection
+                  ensures that your pets live in comfort and style. Explore our
+                  accessories to enhance the bond with your furry, feathery, or
+                  scaly friends.
                 </p>
-                
-              <a
-                className=" dropdown-toggle btn btn-primary"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Accessories
-              </a>
-              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <NavLink className="dropdown-item" to="/dogAccessories" onClick={scrollToTop}>
-                  Dogs Accessories
-                </NavLink>
-                <NavLink className="dropdown-item" to="/fishAccessories" onClick={scrollToTop}>
-                  Fish Accessories
-                </NavLink>
 
-                <NavLink className="dropdown-item" to="/birdAccessories" onClick={scrollToTop}>
-                  Birds Accessories
-                </NavLink>
+                <a
+                  className=" dropdown-toggle btn btn-primary"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Accessories
+                </a>
+                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <NavLink
+                    className="dropdown-item"
+                    to="/dogAccessories"
+                    onClick={scrollToTop}
+                  >
+                    Dogs Accessories
+                  </NavLink>
+                  <NavLink
+                    className="dropdown-item"
+                    to="/fishAccessories"
+                    onClick={scrollToTop}
+                  >
+                    Fish Accessories
+                  </NavLink>
 
-                <NavLink className="dropdown-item" to="/otherpetAccessories" onClick={scrollToTop}>
-                  Otherpets Accessories
-                </NavLink>
-              </div>
-            
+                  <NavLink
+                    className="dropdown-item"
+                    to="/birdAccessories"
+                    onClick={scrollToTop}
+                  >
+                    Birds Accessories
+                  </NavLink>
+
+                  <NavLink
+                    className="dropdown-item"
+                    to="/otherpetAccessories"
+                    onClick={scrollToTop}
+                  >
+                    Otherpets Accessories
+                  </NavLink>
+                </div>
               </div>
             </div>
           </div>
