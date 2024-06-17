@@ -7,7 +7,7 @@ const Testimonials = () => {
       <div className="container-fluid mb-5 test-img">
         <div className="row justify-content-left">
           {/* Testimonial 1 */}
-          <div className="col-sm-12 mt-5 col-md-3 mb-5">
+          <div className="col-sm-12 mt-5 col-md-4 mb-5">
             <div className="card">
               <p className="testimonial-text">
                 "I recently purchased a pair of birds from Ganapathy Pets &
@@ -16,13 +16,13 @@ const Testimonials = () => {
                 interacted with us immediately. The staff at Ganapathy
                 Pets&Birds was very helpful and knowledgeable. They answered all
                 of our questions and gave us lots of advice on how to take care
-                of our new birds. "
+                of our new birds."
               </p>
               <p className="testimonial-author">- Kishore Kumar</p>
             </div>
           </div>
           {/* Testimonial 2 */}
-          <div className="col-sm-12 mt-5  col-md-3 mb-5">
+          <div className="col-sm-12 mt-5 col-md-4 mb-5">
             <div className="card">
               <p className="testimonial-text">
                 "Wonderful place to get your favourite pets ❤️."
@@ -31,10 +31,10 @@ const Testimonials = () => {
             </div>
           </div>
           {/* Testimonial 3 */}
-          <div className="col-sm-12 col-md-3 mb-5 mt-5 ">
+          <div className="col-sm-12 col-md-4 mb-5 mt-5">
             <div className="card">
               <p className="testimonial-text">
-                "Good budget to buy a pets and fishes related things.Owners were friendly."
+                "Good budget to buy pets and fishes related things. Owners were friendly."
               </p>
               <p className="testimonial-author">- Gopal</p>
             </div>

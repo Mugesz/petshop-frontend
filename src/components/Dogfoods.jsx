@@ -6,6 +6,7 @@ import "./styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
+import { useInView } from "react-intersection-observer";
 
 const Dogfoods = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -36,21 +37,7 @@ const Dogfoods = () => {
         <div className="row">
           {filteredDogfoods.length > 0 ? (
             filteredDogfoods.map((item, index) => (
-              <div key={index} className="col-md-4 mb-4">
-                <div className="card">
-                  <img
-                    src={item.imageSrc}
-                    className="card-img-top img-hover"
-                    alt="..."
-                    style={{ height: "200px", objectFit: "cover" }}
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title text-center">{item.title}</h5>
-                    <p className="card-text">{item.description}</p>
-                  </div>
-                  <Contact />
-                </div>
-              </div>
+              <DogfoodCard key={index} item={item} />
             ))
           ) : (
             <div className="col-12 text-center mt-3">
@@ -74,15 +61,40 @@ const Dogfoods = () => {
             <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#ffffff" }} />
           </a>{" "}
           <a href="tel:9363290876" className="btn btn-info">
-            <FontAwesomeIcon
-              icon={faPhoneSquare}
-              style={{ color: "#ffffff" }}
-            />
+            <FontAwesomeIcon icon={faPhoneSquare} style={{ color: "#ffffff" }} />
           </a>
         </h3>
       </div>
       <Footer />
     </>
+  );
+};
+
+const DogfoodCard = ({ item }) => {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
+
+  return (
+    <div
+      ref={ref}
+      className={`col-md-4 mb-4 ${inView ? "slide-up" : "hidden"}`}
+    >
+      <div className="card">
+        <img
+          src={item.imageSrc}
+          className="card-img-top img-hover"
+          alt={item.title}
+          style={{ height: "200px", objectFit: "cover" }}
+        />
+        <div className="card-body">
+          <h5 className="card-title text-center">{item.title}</h5>
+          <p className="card-text">{item.description}</p>
+        </div>
+        <Contact />
+      </div>
+    </div>
   );
 };
 

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import medicine from "../data/medicine.json";
-import "./styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
@@ -10,8 +9,8 @@ import { faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
 const Medicines = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
-  const filteredMedicine = medicine.filter((bird) =>
-    bird.title.toLowerCase().includes(searchQuery.toLowerCase())
+  const filteredMedicine = medicine.filter((item) =>
+    item.title.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   const handleSearchChange = (e) => {
@@ -32,7 +31,7 @@ const Medicines = () => {
           onChange={handleSearchChange}
         />
       </form>
-      <div className="container mt-0 bg-light  text-center">
+      <div className="container mt-0 bg-light text-center">
         <div className="row">
           {filteredMedicine.length > 0 ? (
             filteredMedicine.map((item, index) => (
@@ -54,39 +53,45 @@ const Medicines = () => {
             ))
           ) : (
             <div className="col-12 text-center mt-3">
-              <h3>No birds found.</h3>
+              <h3>No medicine found.</h3>
             </div>
           )}
         </div>
       </div>
-      <div className="text-center mt-3 mb-3">
-        <h3>
-          For more details Contact{" "}
-          <a
-            href="https://wa.me/919363290876?text=Hi, I saw your website. May I know what products you have?"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-success"
-          >
-            <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#ffffff" }} />
-          </a>{" "}
-          <a href="tel:9363290876" className="btn btn-info">
-            <FontAwesomeIcon icon={faPhoneSquare} style={{ color: "#ffffff" }} />
-          </a>
-        </h3>
-      </div>
+      <ContactDetails />
       <Footer />
     </>
   );
 };
 
-export const Contact = () => {
+const Contact = () => {
   return (
     <div className="text-center mt-3 mb-3">
       <h3>
         Contact us{" "}
         <a
-          href="https://wa.me/919363290876?text=Hi,karthi I saw your website. May I know the Birds details?"
+          href="https://wa.me/919363290876?text=Hi, I saw your website. May I know the Medicine details?"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-success"
+        >
+          <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#ffffff" }} />
+        </a>{" "}
+        <a href="tel:9363290876" className="btn btn-info">
+          <FontAwesomeIcon icon={faPhoneSquare} style={{ color: "#ffffff" }} />
+        </a>
+      </h3>
+    </div>
+  );
+};
+
+const ContactDetails = () => {
+  return (
+    <div className="text-center mt-3 mb-3">
+      <h3>
+        For more details Contact{" "}
+        <a
+          href="https://wa.me/919363290876?text=Hi, I saw your website. May I know what products you have?"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-success"

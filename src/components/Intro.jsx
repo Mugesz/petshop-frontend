@@ -11,12 +11,12 @@ const Intro = () => {
           <h1 className="heading">Ganapathy Pets and Aquarium</h1>
           <p className="para-intro text-center">
             "Welcome to Ganapathy Pets and Aquarium, where tails wag and purrs are plenty!
-            Your pet's happiness begins here." 
+            Your pet's happiness begins here."
           </p>
           <h3 className="h3-intro">
             Contact us{" "}
             <a
-              href="https://wa.me/919363290876?text=Hii karthi I saw your website . My I know what are the products which you have "
+              href="https://wa.me/919363290876?text=Hi, I saw your website. May I know what products you have?"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-success me-2"
@@ -24,17 +24,14 @@ const Intro = () => {
               <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#ffffff" }} />
             </a>{" "}
             <a href="tel:9363290876" className="btn btn-info">
-              <FontAwesomeIcon
-                icon={faPhoneSquare}
-                style={{ color: "#ffffff" }}
-              />
+              <FontAwesomeIcon icon={faPhoneSquare} style={{ color: "#ffffff" }} />
             </a>
           </h3>
         </div>
         <div className="col-lg-6 mt-4 mt-lg-0">
           <img
             src="https://pets-grooming.axiomthemes.com/wp-content/uploads/2016/07/image-30.jpg"
-            alt=""
+            alt="Pets and Aquarium"
             className="img-fluid"
           />
         </div>

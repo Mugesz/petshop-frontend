@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import {animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 
 const Main = () => {
   const scrollToTop = () => {
@@ -33,7 +33,7 @@ const Main = () => {
                   className="btn btn-primary"
                   onClick={scrollToTop}
                 >
-                  view All fishes
+                  View All Fishes
                 </NavLink>
               </div>
             </div>
@@ -59,7 +59,7 @@ const Main = () => {
                   className="btn btn-primary"
                   onClick={scrollToTop}
                 >
-                  view All Dogs
+                  View All Dogs
                 </NavLink>
               </div>
             </div>
@@ -86,7 +86,7 @@ const Main = () => {
                   className="btn btn-primary"
                   onClick={scrollToTop}
                 >
-                  view All Birds
+                  View All Birds
                 </NavLink>
               </div>
             </div>
@@ -101,7 +101,7 @@ const Main = () => {
                 style={{ height: "250px", objectFit: "cover" }}
               />
               <div className="card-body">
-                <h5 className="card-title text-center">other pets</h5>
+                <h5 className="card-title text-center">Other Pets</h5>
                 <p className="card-text">
                   Beyond the ordinary, our collection of unique pets awaits your
                   affection. Whether it's a small mammal, reptile, or any other
@@ -113,7 +113,7 @@ const Main = () => {
                   className="btn btn-primary"
                   onClick={scrollToTop}
                 >
-                  view All pets
+                  View All Pets
                 </NavLink>
               </div>
             </div>
@@ -133,12 +133,12 @@ const Main = () => {
                   Treat your pets to a feast of flavors! Explore our range of
                   high-quality foods, specially crafted to meet the nutritional
                   needs of your beloved companions. From dog kibbles to fish
-                  flakes, we have a delectable menu for every palate..
+                  flakes, we have a delectable menu for every palate.
                 </p>
 
                 <a
                   className=" dropdown-toggle btn btn-primary"
-                  id="navbarDropdown"
+                  id="navbarDropdownFoods"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-haspopup="true"
@@ -146,28 +146,30 @@ const Main = () => {
                 >
                   Foods
                 </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div
+                  className="dropdown-menu"
+                  aria-labelledby="navbarDropdownFoods"
+                >
                   <NavLink
                     className="dropdown-item"
                     to="/dogfoods"
                     onClick={scrollToTop}
                   >
-                    Dogs foods
+                    Dogs Foods
                   </NavLink>
                   <NavLink
                     className="dropdown-item"
                     to="/fishfoods"
                     onClick={scrollToTop}
                   >
-                    Fish foods
+                    Fish Foods
                   </NavLink>
-
                   <NavLink
                     className="dropdown-item"
-                    to="/birsfoods"
+                    to="/birdfoods"
                     onClick={scrollToTop}
                   >
-                    Birds foods
+                    Birds Foods
                   </NavLink>
                   <NavLink className="dropdown-item" onClick={scrollToTop}>
                     Medicine
@@ -197,7 +199,7 @@ const Main = () => {
 
                 <a
                   className=" dropdown-toggle btn btn-primary"
-                  id="navbarDropdown"
+                  id="navbarDropdownAccessories"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-haspopup="true"
@@ -205,7 +207,10 @@ const Main = () => {
                 >
                   Accessories
                 </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div
+                  className="dropdown-menu"
+                  aria-labelledby="navbarDropdownAccessories"
+                >
                   <NavLink
                     className="dropdown-item"
                     to="/dogAccessories"
@@ -220,7 +225,6 @@ const Main = () => {
                   >
                     Fish Accessories
                   </NavLink>
-
                   <NavLink
                     className="dropdown-item"
                     to="/birdAccessories"
@@ -228,13 +232,12 @@ const Main = () => {
                   >
                     Birds Accessories
                   </NavLink>
-
                   <NavLink
                     className="dropdown-item"
                     to="/otherpetAccessories"
                     onClick={scrollToTop}
                   >
-                    Otherpets Accessories
+                    Other Pets Accessories
                   </NavLink>
                 </div>
               </div>

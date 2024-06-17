@@ -155,3 +155,26 @@
   width: 300px !important;
   border: 1px solid black !important;
 }
+
+/* bird */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.slide-up {
+  opacity: 1;
+  transform: translateY(0);
+  animation: slideUp 250ms ease-out;
+}

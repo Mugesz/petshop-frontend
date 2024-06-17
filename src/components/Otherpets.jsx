@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import otherpets from "../data/Otherpets.json";
-import "./styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
@@ -21,7 +20,7 @@ const Otherpets = () => {
   return (
     <>
       <Header />
-      <h1 className="top-heading bg-light">Cats and Rabbits </h1>
+      <h1 className="top-heading bg-light text-center">Cats and Rabbits</h1>
       <form className="d-flex justify-content-center" role="search">
         <input
           className="form-control me-2 reduce-form"
@@ -53,34 +52,40 @@ const Otherpets = () => {
           ))}
         </div>
       </div>
-      <div className="text-center mt-3 mb-3">
-        <h3>
-          For more details Contact{" "}
-          <a
-            href="https://wa.me/919363290876?text=Hi, I saw your website. May I know what products you have?"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-success"
-          >
-            <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#ffffff" }} />
-          </a>{" "}
-          <a href="tel:9363290876" className="btn btn-info">
-            <FontAwesomeIcon icon={faPhoneSquare} style={{ color: "#ffffff" }} />
-          </a>
-        </h3>
-      </div>
+      <ContactDetails />
       <Footer />
     </>
   );
 };
 
-export const Contact = () => {
+const Contact = () => {
   return (
     <div className="text-center mt-3 mb-3">
       <h3>
         Contact us{" "}
         <a
-          href="https://wa.me/919363290876?text=Hi,karthi I saw your website. May I know the other pets details?"
+          href="https://wa.me/919363290876?text=Hi, I saw your website. May I know the other pets details?"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-success"
+        >
+          <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#ffffff" }} />
+        </a>{" "}
+        <a href="tel:9363290876" className="btn btn-info">
+          <FontAwesomeIcon icon={faPhoneSquare} style={{ color: "#ffffff" }} />
+        </a>
+      </h3>
+    </div>
+  );
+};
+
+const ContactDetails = () => {
+  return (
+    <div className="text-center mt-3 mb-3">
+      <h3>
+        For more details Contact{" "}
+        <a
+          href="https://wa.me/919363290876?text=Hi, I saw your website. May I know what products you have?"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-success"
