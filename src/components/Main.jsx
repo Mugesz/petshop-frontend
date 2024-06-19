@@ -1,18 +1,42 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { animateScroll as scroll } from "react-scroll";
+import "./styles.css"; // Ensure to import your CSS file
 
 const Main = () => {
   const scrollToTop = () => {
     scroll.scrollToTop();
   };
 
+  useEffect(() => {
+    const elements = document.querySelectorAll('.slide-in');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    elements.forEach(element => {
+      observer.observe(element);
+    });
+
+    return () => {
+      elements.forEach(element => {
+        observer.unobserve(element);
+      });
+    };
+  }, []);
+
   return (
     <>
       <h1 className="text-center main-header mt-3">What We Have</h1>
       <div className="container mt-0">
         <div className="row">
-          <div className="col-sm-6 mb-3 mb-sm-0">
+          <div className="col-sm-6 mb-3 mb-sm-0 slide-in">
             <div className="card">
               <img
                 src="https://creature-companions.in/wp-content/uploads/2021/11/flowerhorn-fish.gif"
@@ -39,7 +63,7 @@ const Main = () => {
             </div>
           </div>
 
-          <div className="col-sm-6 mb-3 mb-sm-0">
+          <div className="col-sm-6 mb-3 mb-sm-0 slide-in">
             <div className="card">
               <img
                 src="https://www.dailypaws.com/thmb/rwL54b2y1kllOZLhfppcfbkrmaU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/golden-lab-puppy-664540826-2000-b29bcc58c71a498eb5ecd5d0b2b8e82b.jpg"
@@ -65,7 +89,7 @@ const Main = () => {
             </div>
           </div>
 
-          <div className="col-sm-6 mb-3 mb-sm-0">
+          <div className="col-sm-6 mb-3 mb-sm-0 slide-in">
             <div className="card">
               <img
                 src="https://thumbs.dreamstime.com/b/sun-conures-4406820.jpg"
@@ -92,7 +116,7 @@ const Main = () => {
             </div>
           </div>
 
-          <div className="col-sm-6 mb-3 mb-sm-0">
+          <div className="col-sm-6 mb-3 mb-sm-0 slide-in">
             <div className="card">
               <img
                 src="https://images.unsplash.com/photo-1460572894071-bde5697f7197?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGVyc2lhbiUyMGNhdHxlbnwwfHwwfHx8MA%3D%3D"
@@ -119,7 +143,7 @@ const Main = () => {
             </div>
           </div>
 
-          <div className="col-sm-6 mb-3 mb-sm-0">
+          <div className="col-sm-6 mb-3 mb-sm-0 slide-in">
             <div className="card">
               <img
                 src="https://im.whatshot.in/img/2020/Jun/istock-1173052645-cropped-1-1592388803.jpg"
@@ -137,7 +161,7 @@ const Main = () => {
                 </p>
 
                 <a
-                  className=" dropdown-toggle btn btn-primary"
+                  className="dropdown-toggle btn btn-primary"
                   id="navbarDropdownFoods"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -179,7 +203,7 @@ const Main = () => {
             </div>
           </div>
 
-          <div className="col-sm-6 mb-3 mb-sm-0">
+          <div className="col-sm-6 mb-3 mb-sm-0 slide-in">
             <div className="card">
               <img
                 src="https://c8.alamy.com/comp/2F5YM65/pet-shop-supplies-of-dog-care-and-grooming-cartoon-vector-dog-or-puppy-animal-food-bowl-bed-and-bone-toy-leash-collar-kennel-and-carrier-cage-b-2F5YM65.jpg"
@@ -198,7 +222,7 @@ const Main = () => {
                 </p>
 
                 <a
-                  className=" dropdown-toggle btn btn-primary"
+                  className="dropdown-toggle btn btn-primary"
                   id="navbarDropdownAccessories"
                   role="button"
                   data-bs-toggle="dropdown"

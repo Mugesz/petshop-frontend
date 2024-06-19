@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="">
       <div className="main-img top-margin">
         <div className="text-light main-heading">
-     
+    
         </div>
       </div>
     </div>
