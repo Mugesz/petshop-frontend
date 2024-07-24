@@ -10,7 +10,7 @@ const Header = () => {
   };
   return (
     <nav className="navbar navbar-expand-lg nav-bg fixed-top">
-      <div className="container-fluid d-flex align-items-center justify-content-between">
+      <div className="container d-flex align-items-center justify-content-between">
         <div className="d-flex">
           <Link className="navbar-brand" to="/" onClick={scrollToTop}>
             <img
