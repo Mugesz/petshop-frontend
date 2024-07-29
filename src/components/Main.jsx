@@ -66,7 +66,7 @@ const Main = () => {
           <div className="col-sm-6 mb-3 mb-sm-0 slide-in">
             <div className="card">
               <img
-                src="https://www.dailypaws.com/thmb/rwL54b2y1kllOZLhfppcfbkrmaU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/golden-lab-puppy-664540826-2000-b29bcc58c71a498eb5ecd5d0b2b8e82b.jpg"
+                src="https://wallpaper.forfun.com/fetch/f1/f17a38832f12b57189661296f3fa8f7e.jpeg"
                 alt=""
                 className="card-img-top"
                 style={{ height: "250px", objectFit: "cover" }}

@@ -30,7 +30,7 @@ const Having = () => {
 
   return (
     <div className="container-fluid b-image">
-      <div className="d-flex justify-content-around text-light">
+      <div className="d-flex justify-content-around text-light container">
         <div className="mt-5 mb-5 slide-in">
           <img src={fish} alt="Fish" className="having-img" />
         </div>

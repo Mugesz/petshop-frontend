@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
           <div className="col-md-4">
             <h2 className="text-2xl font-bold mb-4">Follow Us</h2>
-            <div className="d-flex justify-content-center margin-left">
+            <div className="d-flex justify-content-left margin-left">
               <a
                 href="https://youtube.com/@GANAPATHYPETSAQUARIUM?si=rZCw7CEcP3yzliUJ"
                 target="_blank"

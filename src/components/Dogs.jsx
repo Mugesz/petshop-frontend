@@ -81,7 +81,7 @@ const DogCard = ({ item }) => {
       <div className="card">
         <img
           src={item.imageSrc}
-          className="card-img-top img-hover"
+          className="card-img-top img-hover object-fit-cover"
           alt={item.title}
           style={{ height: "200px", objectFit: "cover" }}
         />
@@ -112,7 +112,10 @@ export const Contact = () => {
           <FontAwesomeIcon icon={faPhoneSquare} style={{ color: "#ffffff" }} />
         </a>
       </h3>
+      <div>
+      </div>
     </div>
+    
   );
 };
 
